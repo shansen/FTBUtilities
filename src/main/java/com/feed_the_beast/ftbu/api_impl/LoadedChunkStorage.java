@@ -49,7 +49,7 @@ public enum LoadedChunkStorage implements ForgeChunkManager.LoadingCallback, For
 
             if(world != null)
             {
-                ticket = ForgeChunkManager.requestTicket(FTBU.INST, world, ForgeChunkManager.Type.NORMAL);
+                ticket = ForgeChunkManager.requestPlayerTicket(FTBU.INST, "maboughey", world, ForgeChunkManager.Type.NORMAL);
                 TICKET_CONTAINERS.put(dimID, ticket);
             }
         }
