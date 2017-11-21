@@ -37,6 +37,10 @@ repositories {
         name "LatMod"
         artifactPattern "http://mods.latmod.com/[module]/[revision]/[module]-[revision](-[classifier]).[ext]"
     }
+    ivy {
+        name "LatMod 2"
+        artifactPattern "http://mods.latmod.com/[module]/3.6.5/[module]-[revision](-[classifier]).[ext]"
+    }
     maven {
         name 'DVS1 Maven FS'
         url 'http://dvs1.progwml6.com/files/maven'
